@@ -7,8 +7,8 @@ data:
   num_workers: 0
   accumulate_batches: 1
   log_frequency: 10
-  results_file: "outputs/hepar2_baseline_fci/result.pkl"
+  results_file: "outputs/hepar2_baseline_gies/result.pkl"
 model:
-  algorithm: "fci"
+  algorithm: "gies"
   model: "baseline"
   gpu: -1

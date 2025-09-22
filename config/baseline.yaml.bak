@@ -2,8 +2,8 @@ data:
   data_file: "/Users/ashoksharma/Local_Folder/pythonfiles/sea-reproduce/data/hepar2/hepar2_meta.csv"
   debug: False
   batch_size: 1
-  fci_batches_inference: 1
-  fci_batch_size: 100
+  fci_batches_inference: 100
+  fci_batch_size: 1000
   num_workers: 0
   accumulate_batches: 1
   log_frequency: 10

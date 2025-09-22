@@ -1,4 +1,4 @@
-name: base
+name: sea
 channels:
   - defaults
 dependencies:
@@ -56,4 +56,4 @@ dependencies:
       - psutil==5.9.5
       - six==1.16.0
       - wcwidth==0.2.6
-prefix: /data/rsg/nlp/rmwu/miniconda3
+
