@@ -26,6 +26,13 @@ models](http://arxiv.org/abs/2402.01929).
 }
 ```
 
+## Update — 2025‑09‑22
+
+- Baseline: switched from FCI predict loop to GES (BIC) for reliable 70‑node HEPAR2 inference, producing outputs/hepar2_baseline_ges/pred_dream.npy and pred_dream_img.png.  
+- Truth DAG: downloaded hepar2.bif.gz, decompressed to hepar2.bif, converted to data/hepar2/DAG_true.npy for evaluation.  
+- Metrics: evaluated predictions vs DAG_true.npy with gCastle MetricsDAG and saved the comparison figure.  
+- Repo hygiene: stopped tracking .venv and removed it from history to avoid >100 MB files; repository cleaned and pushed.  
+
 ## Installation
 
 ```
@@ -96,4 +103,5 @@ in `examples/SEA-results.ipynb`.
 
 We have uploaded the predictions of all traditional baselines and our models
 to the [Zenodo archive](https://zenodo.org/records/10611036) as well.
+
 
